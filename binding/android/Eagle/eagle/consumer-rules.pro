@@ -1,0 +1,3 @@
+-keep class ai.picovoice.eagle.*Exception { <init>(...); }
+-keep class ai.picovoice.eagle.EagleProfileNative { <init>(...); }
+-keep class ai.picovoice.eagle.EagleProfilerEnrollResult { <init>(...); }
