@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -477,25 +478,25 @@
       }
     </script>
   </head>
-  <body>
+  <body >
     <section class="blue fw-bold">
-      <div class="container">
-        <h1 class="display-1 fw-bolder">VoiceJoy Eagle</h1>
-        <h1>Welcome to VoiceJoy Eagle!🎙️✨</h1>
-        <p class="">
+      <div class="container-xxl my-1">
+        <h1 class="display-1 fw-bolder mb-3">VoiceJoy Eagle🎙️✨</h1>
+        <h1 class="my-3 ">Welcome to VoiceJoy Eagle!</h1>
+        <div class="container-xxl">
+        <p class="my-3">
           In this journey, our magical emoji will light up with happiness if it
           recognizes your voice, but beware – it might stay a bit grumpy if not!
           😠🤖 So buckle up, speak your heart out, and let the VoiceJoy Eagle
           turn your words into a whimsical emoji celebration! 🎉🎤
         </p>
-      </div>
       <!-- <hr /> -->
-      <div class="container">
+      <div class="container-xl">
         <label for="accessKey"
           >AccessKey obtained from
           <a href="https://console.picovoice.ai/" onclick="window.open('https://console.picovoice.ai/');return false;">Picovoice Console</a>:</label
         >
-        <input type="password" id="accessKey" name="accessKey" class="" placeholder="your key here..."/>
+        <input type="password" id="accessKey" name="accessKey" class="" placeholder="your accessKey..."/>
         <input
         class="btn btn-dark"
 
@@ -506,7 +507,7 @@
         />
         <!-- <hr /> -->
         <div id="enrollContainer" style="display: none">
-          <label for="audioFile"
+          <label for="audioFile" 
             >Enroll speaker with one or more audio files:</label
           >
           <input
@@ -517,13 +518,13 @@
             accept="audio/*,.wav"
             multiple
           />
-          <p><b>OR</b></p>
+          <p class="mt-3"><b>OR</b></p>
           <label for="micEnrollStartBtn">Enroll speaker with microphone:</label>
           <button class="btn btn-dark" id="micEnrollStartBtn" onclick="micEnrollStart()">
             Record Audio
           </button>
           <p>
-            Can't find the right words? How about this: Bananas and socks hit
+            <strong>Can't find the right words? How about this: </strong><br/>Bananas and socks hit
             the dance floor at the disco, flaunting their one-of-a-kind sense of
             rhythm! 🍌🧦💃 Let your imagination groove with this quirky combo as
             they twist and turn to the beat, proving that even the most
@@ -539,7 +540,6 @@
           </button>
           <span id="displayTimer" style="display: none"></span>
           <br />
-          <hr />
         </div>
         <div id="testContainer" style="display: none">
           <div>
@@ -587,6 +587,8 @@
         </div>
         <div id="status"></div>
       </div>
+    </div>
+
     </section>
     <div class="spacer layer1"></div>
   </body>
