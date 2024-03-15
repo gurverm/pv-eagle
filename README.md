@@ -6,8 +6,7 @@
 3. [Getting Started](#getting-started)
 4. [Demo](#demo)
 5. [Technologies Used](#technologies-used)
-6. [Contributors](#contributors)
-7. [License](#license)
+6. [License](#license)
 
 ## Introduction
 
@@ -29,16 +28,16 @@ To start using VoiceJoy Eagle, follow these steps:
    - Option 1: Enroll speakers using audio files by uploading one or more files.
    - Option 2: Enroll speakers using a microphone by clicking on the "Record Audio" button and speaking continuously until enrollment is complete.
 
-![VoiceJoy Eagle Screenshot](./demo/web/assets/images/vj1.png)
+![VoiceJoy Eagle Screenshot One](./demo/web/assets/images/vj1.png)
 
 4. **Start Testing**: Once speakers are enrolled, click on the "Start Test" button to begin voice recognition testing.
 5. **Stop Testing**: Click on the "Stop Test" button to end the testing session.
 
-![VoiceJoy Eagle Screenshot](./demo/web/assets/images/vj3.png)
+![VoiceJoy Eagle Screenshot Two](./demo/web/assets/images/vj3.png)
 
 ## Demo
 
-![VoiceJoy Eagle Screenshot](./demo/web/assets/images/vj1.png)
+![VoiceJoy Eagle Demo](./demo/web/assets/images/vj-eagle.gif)
 
 ## Technologies Used
 
@@ -48,10 +47,6 @@ To start using VoiceJoy Eagle, follow these steps:
 - Bootstrap
 - Picovoice Eagle for Web
 - WebVoiceProcessor
-
-## Contributors
-
-- [Your Name](https://github.com/your_username)
 
 ## License
 
