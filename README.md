@@ -45,8 +45,15 @@ To start using VoiceJoy Eagle, follow these steps:
 - CSS
 - JavaScript
 - Bootstrap
-- Picovoice Eagle for Web
-- WebVoiceProcessor
+- Picovoice Eagle Web SDK
+
+## Usage
+
+To use this application on your local machine follow the below steps:
+- `git clone `this repo
+- `cd demo/web`
+- `npm install`
+- `npm run start`
 
 ## License
 
