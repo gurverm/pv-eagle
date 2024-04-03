@@ -1,7 +1,0 @@
-framework module PvEagle {
-  umbrella header "PvEagle.h"
-  header "pv_eagle.h"
-  header "picovoice.h"
-  export *
-  module * {export *}
-}

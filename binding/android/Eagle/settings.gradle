@@ -1,2 +1,0 @@
-include ':eagle'
-rootProject.name = "Eagle"
