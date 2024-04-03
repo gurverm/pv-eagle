@@ -49,8 +49,8 @@ To start using VoiceJoy Eagle, follow these steps:
 
 ## Usage
 
-To use this application on your local machine follow the below steps:
-- `git clone `this repo
+To use this application on your local machine follow the below steps in your terminal:
+- `git clone` this repo
 - `cd demo/web`
 - `npm install`
 - `npm run start`
